@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+
+    <!-- google fonts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+
+
+
+     <div class="container">
+        <div class="row">
+            <div class="col">
+                <div  class="main-div" id="login_Div">
+                    <h3>Login To Admin</h3>
+                <input type="text" name="userId" id="userId" placeholder="User ID" required>
+                <br>
+                <input type="password" name="password" id="password" placeholder="Password" required>
+                <br>
+                <button class="loginBtn" onclick="login()">Login</button> 
+                <button class="backBtn" id="backBtn" onclick="backBtn()">Back</button>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+
+    
+   
+
+
+
+    <body>
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+      </body>
+
+
+<script src="login.js"></script>
+
+</body>
+</html>

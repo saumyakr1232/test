@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #edeff0;
+}
+.loggedIn{
+    background-color: black;
+    height: 5rem;
+    width: 100%;
+}
+p{
+    color: white;
+    display: inline;
+    margin-top: 0.5rem;
+
+}
+#logOutBtn{
+    background-color: tomato;
+   margin-left: 75%;
+   margin-top: 1rem;
+   cursor: pointer;
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   display: inline;
+   border: 0px;
+
+
+}
+
+#logOutBtn:hover{
+    color: tomato;
+    background-color: white;
+}
+
+h1{
+    color: tomato;
+    padding: 1rem;
+
+}
+ul{
+    padding-top: 0;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+button{
+    margin: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: red;
+    border:  0px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.message{
+    padding-left: 30px;
+}

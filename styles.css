@@ -1,0 +1,285 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: #edeff0;
+}
+html{
+  scroll-behavior: smooth;
+}
+.home{
+  background-repeat: no-repeat;
+  position: relative;
+  
+}
+#carouselExampleControls .carousel-item{
+  height: 620px;
+}
+
+ 
+.topDiv{
+  padding: 0;
+  position: relative;
+}
+
+.logo{
+  border-radius: 15px;
+}
+
+ .navbar-brand{
+  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#heading{
+  text-align: center;
+  font-size: 3.5rem;
+  color: white;
+  padding-top: 300px;
+  padding-bottom: 100px;
+
+}
+nav .navbar-nav .nav-item .nav-link{
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+}
+nav{
+  height: 300%;
+  background-color: black;
+  
+}
+.nav-item:hover{
+  color: #4064d7;
+}
+
+.home{
+  position: relative;
+  padding: 0px;
+}
+
+.mainHeader{
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  color: white;
+  font-weight: 900;
+  top: 55%;
+  left: 3rem;
+  text-align: left;
+  font-weight: bolder;
+}
+.mainPara{
+  position: absolute;
+  color: white;
+  top: 65%;
+  left: 3rem;
+  text-align: left;
+}
+
+/*------------------------College section-------------------*/
+
+.collegeSection{
+  background-color: white;
+  margin: 3rem 3rem 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+ .card{
+   margin-top: 10%;
+   margin-bottom: 10%;
+ 
+} 
+.card-img-top{
+  height: 12rem;
+}
+
+
+/*----------- image zoom effect----------*/
+.inner{
+  overflow: hidden;
+}
+.inner img{
+  transition: all 1.5s ease;
+}
+
+.inner:hover img{
+  transform: scale(1.5);
+}
+
+.card-footer{
+  text-align: center;
+}
+
+.storyHeader{
+  text-align: center;
+}
+div .bordr{
+  border-top: 2px solid #4064d7;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.storyPara{
+  text-align: center;
+}
+
+/* ---------------------------------------------- */
+
+form{
+  width: 400px;
+  margin: auto;
+}
+.submitBtnDiv{
+  text-align: center;
+
+}
+
+.about-us{
+  text-align: center;
+}
+/* .aboutUsPara{
+  margin-bottom: 5.5rem;
+} */
+.abtUs{
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/*---------------------------bottom part-----------------------*/
+.bottomDiv{
+  background-color: #000;
+  columns: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.footer-icon{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.contactUs{
+  color:white;
+  text-align: center;
+}
+.copyright{
+  color: gray;
+  margin-top:30px;
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+}
+
+/*------------------Form section------------------*/
+
+.formDiv{
+  background-color: white;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 6%;
+  
+}
+
+.form-h2{
+  color: #e71414;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.alert{
+  text-align: center;
+  padding: 10px;
+  background: #79c879;
+  color: white;
+  display: none;
+}
+
+
+.feature-img{
+  max-width:30%;
+  height:auto;
+}
+.feature-img-hostel{
+ max-width: 30%;
+ height: auto;
+}
+.feature-img-hostel{
+  filter: contrast(350%);
+  
+}
+
+#features{
+  width: 100%;
+  margin: 0px;
+  padding: 7% 15%;
+
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.feature-box{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 767px) {
+  .logo{
+    max-width: 200px;
+    padding: auto;
+    margin: auto;
+  }
+  .navbar{
+    margin: 0px;
+    padding: 10px;
+    max-width: 100%;
+  }
+  .home{
+    max-width: auto;
+    max-height: auto;
+  }
+  #carouselExampleControls .carousel-item{
+    height: auto;
+  }
+  .mainHeader{
+    font-size: large;
+  }
+  .mainPara{
+    font-size: small;
+  } 
+  .collegeSection{
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+  .card{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  
+ } 
+ .storyPara{
+   margin: 1rem;
+ }
+ .formDiv{
+  background-color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 6%;
+  padding-bottom: 10px;
+}
+form{
+  width: 250px;
+  margin: auto;
+}
+.about-us{
+  text-align: center;
+  padding: 1rem;
+}
+
+
+ }
